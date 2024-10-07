@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .arcticons--i-love-hue-too {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' d='M24.136 9.1c3.31-3.409 5.46-3.6 7.525-3.6c5.815 0 10.478 6.055 10.394 11.612c-.131 8.693-5.281 16.117-17.932 25.388C12.748 34.747 6.137 24.862 5.947 17.599C5.808 12.318 10.823 5.5 16.665 5.5c2.256 0 4.125.148 7.471 3.6'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.my{
+    background: #0a9f58;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    border: none;
+}
+select #m{
+    border: none
+  #0a9f58;
+    outline-style: hidden;
+    list-style: none;
+
+}
+.home{
+    display: flex; 
+    justify-content: inherit;
+}
+:hover#h{
+  
+    color: #0a9f58;
+}
+#h{
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color:#f8f8f8;
+    justify-content: space-between;
+}
+.search-bar input{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid seashell;
+    height: 30px
+}
+.Search, .category-btn{
+    background-color: #0a9f58;
+    color: white;
+    border: 3px;
+    padding: 10px 20px;
+    border-radius: 6px;
+
+}
+.contact{
+    color: black;
+    padding-right: 30px;}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    background-color: beige;
+
+}
+.banner-content h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.banner-content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+strong{
+font-size: 2rem;
+color: #0a9f58;
+}
+.shop-now-btn{
+border-style: none;
+width: 8rem;
+padding: 13px;
+border: #0a9f58;
+border-style: double;
+color: #0a9f58;
+}
+:hover.shop-now-btn{
+  transition: 3s color green;
+  
+}
+.image{
+    max-width: 100%;
+    height: auto;
+
+}
+.categories-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.category-item{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 6px;
+}
+ 
+.pc{
+    shape-image-threshold: inherit;
+    width: auto;
+    height: auto;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <div class="my">ENGLAND FINEST ONLINE SHOPPING DESTINATION
+        <div class="adress">
+            <nav>
+                <select name="my adress" id="m">
+                    <option value="">My Account</option>
+                </select none>
+                <select name="usd" id="m">
+                    <option value="">USD</option>
+                </select>
+                <select name="english" id="m">
+                    <option value="">🏁English</option>
+                </select>
+            </nav>
+            
+        
+            
+        </div>
+    </div>
+    </header>
+    <div class="home">
+        <div class="cig">
+            <h1>
+                CIGAR
+            </h1>
+        </div>
+       
+            <select name="Home" id="h">
+                <option value="">Home</option>
+            </select>
+            <select name="shop" id="h">
+                <option value="">Shop</option>
+            </select>
+            <select name="blog" id="h">
+                <option value="">Blog</option>
+            </select>
+            <select name="pages" id="h">
+                <option value="">Pages</option>
+            </select> 
+            <select name="contact" id="h">
+                <option value="">Contact us</option>
+            </select>
+            
+    </div>
+    <div>
+        <div class="search-bar">
+            <button class="category-btn">All categories&#x25BC;</button>
+            <input type="text"  placeholder="search-entire store here....">
+            <button class="Search">Search</button>
+            <div class="contact">
+                <p>Call us: 234-4232-589-667</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h2>BENTWOOD ARMCHAIR</h2>
+                <p>SIMPLE CONTEMPORARY</p>
+                <p>GET UP TO</p><strong>30% OFF</strong>
+                <br>
+                <BUtton class="shop-now-btn">SHOP NOW</BUtton>
+            </div>
+            <div class="image">
+                <img src="./image/armchair-.png" alt="BENTWOOD ARMCHAIR" srcset="">
+            </div>
+        </section>
+    </main>
+    <section class="top-categories">
+    <h2>Top Categories</h2>
+    <div class="categories-grid">
+        <div class="category-item">
+            <h3>Consoles & Games</h3>
+            <p>Pc Gamepads</p>
+            <div class="pc image"><img src="./image/game_pad-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="category-item">
+            <h3>Headphones</h3>
+            <p>Earbuds & In-Ear</p>
+            <div class="pc image"><img src="./image/download-removebg-preview.png" alt=""></div>
+        </div>
+        <div class="category-item">
+            <h3>Camera & Photos</h3>
+            <p>Digital Cameras</p>
+            <div class="pc image"><img src="./image/camera-removebg-preview.png" alt="" srcset=""></div>
+        </div>
+        <div class="category-item">
+            <h3>Laptop & Computers</h3>
+            <p>Pc Gamepads</p>
+            <div class="pc image"><img src="./image/laptop-removebg-preview.png" alt=""></div>
+        </div>
+
+    </div>
+    
+    </section>
+    
+
+
+
+</body>
+</html>
